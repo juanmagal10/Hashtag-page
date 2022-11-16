@@ -11,37 +11,32 @@
 
 .principal-section-container .left-img-container{
     width: 50%;
-    /* display: flex;
-    justify-content: space-around; */
+    display: flex;
+    justify-content: center;
+}
+
+.principal-section-container .left-img-container .img-text-container{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
 }
 
 
-.principal-section-container .left-img-container .left-profile-pic{
-    position: relative;
+.principal-section-container .left-img-container .img-text-container .left-profile-pic{
     animation: aparecerIzq 1s ease-out forwards;
     height: 80%;
     margin-top: 40px;
-    
-
 }
 
-.principal-section-container .left-img-container .profile-name-left{
-    left: 30%;
-    z-index: 15000;
-    position: absolute;
-    top: 70%;
-    color:var(--amarillo);
-    font-size: 30px;
-    text-shadow: 1px 1px #222;
-    opacity: 0%;
-    animation: aparecer 1.5s ease-out 1s forwards;
-}
 
-.principal-section-container .left-img-container .profile-name-left {
-    left: 30%;
+
+.principal-section-container .left-img-container .img-text-container .profile-name-left {
+    margin-left: 50%;
     z-index: 15000;
     position: absolute;
-    top: 70%;
+    top: 75%;
     color: var(--amarillo);
     font-size: 30px;
     text-shadow: 1px 1px #222;
@@ -53,12 +48,12 @@
 
 @keyframes aparecerIzq {
     0% {
-        left: -60%;
+        margin-left: -60%;
         opacity: 0%;
     }
     
     100% {
-        left: 30%;
+        margin-left: 0%;
         opacity: 100%;
     }
 }
@@ -69,13 +64,21 @@
 
 .principal-section-container .right-img-container{
     width: 50%;
+    display: flex;
+    justify-content: space-around;
 }
 
-.principal-section-container .right-img-container .right-profile-pic{
-    position: relative;
-    animation: aparecerDer 1s ease-out 1s forwards;
+.principal-section-container .right-img-container .img-text-container{
+        position: relative;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+}
+
+.principal-section-container .right-img-container .img-text-container .right-profile-pic{
+    animation: aparecerDer 1s ease-in .3s forwards;
     opacity: 0%;
-    left: 20%;
     height: 80%;
     justify-content: space-around;
     position: relative;
@@ -83,11 +86,11 @@
  
 }
 
-.principal-section-container .right-img-container .profile-name-right {
-    /* left: 30%; */
+.principal-section-container .right-img-container .img-text-container .profile-name-right {
+    margin-left: 50%;
     z-index: 15000;
     position: absolute;
-    /* top: 70%; */
+    top: 75%;
     color: var(--amarillo);
     font-size: 30px;
     text-shadow: 1px 1px #222;
