@@ -1,0 +1,126 @@
+.principal-section-container{
+    display: flex;
+    height: 80vh;
+    justify-content: space-around;
+    position: relative;
+}
+
+/*Un container para cada uno de los perfiles*/
+
+/*Container izquierdo*/
+
+.principal-section-container .left-img-container{
+    width: 50%;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+
+.principal-section-container .left-img-container .left-profile-pic{
+    position: relative;
+    animation: aparecerIzq 1s ease-out forwards;
+    height: 80%;
+    margin-top: 40px;
+    
+
+}
+
+.principal-section-container .left-img-container .profile-name-left{
+    left: 30%;
+    z-index: 15000;
+    position: absolute;
+    top: 70%;
+    color:var(--amarillo);
+    font-size: 30px;
+    text-shadow: 1px 1px #222;
+    opacity: 0%;
+    animation: aparecer 1.5s ease-out 1s forwards;
+}
+
+.principal-section-container .left-img-container .profile-name-left {
+    left: 30%;
+    z-index: 15000;
+    position: absolute;
+    top: 70%;
+    color: var(--amarillo);
+    font-size: 30px;
+    text-shadow: 1px 1px #222;
+    opacity: 0%;
+    animation: aparecer 1.5s ease-out 1s forwards;
+}
+
+
+
+@keyframes aparecerIzq {
+    0% {
+        left: -60%;
+        opacity: 0%;
+    }
+    
+    100% {
+        left: 30%;
+        opacity: 100%;
+    }
+}
+
+
+
+/*Container Derecho*/
+
+.principal-section-container .right-img-container{
+    width: 50%;
+}
+
+.principal-section-container .right-img-container .right-profile-pic{
+    position: relative;
+    animation: aparecerDer 1s ease-out 1s forwards;
+    opacity: 0%;
+    left: 20%;
+    height: 80%;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 40px;
+ 
+}
+
+.principal-section-container .right-img-container .profile-name-right {
+    /* left: 30%; */
+    z-index: 15000;
+    position: absolute;
+    /* top: 70%; */
+    color: var(--amarillo);
+    font-size: 30px;
+    text-shadow: 1px 1px #222;
+    opacity: 0%;
+    animation: aparecer 1.5s ease-out 1s forwards;
+}
+
+
+
+
+
+
+
+@keyframes aparecerDer {
+    0% {
+            top: -60%;
+            opacity: 0%;
+        }
+    
+        100% {
+            top: 0%;
+            opacity: 100%;
+        }
+}
+
+/*estilos generales*/
+
+@keyframes aparecer {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+    
+}

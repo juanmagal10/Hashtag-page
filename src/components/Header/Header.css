@@ -1,0 +1,35 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    height: 120px;
+    overflow: hidden;
+    background-color: var(--lila);
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
+}
+
+.navbar-container{
+    height: inherit;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+.navbar{
+    width: 100%;;
+}
+
+
+
+.navbar-container .navbar .list-items{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    
+}
+
+.navbar-container .navbar .list-items li{
+    font-size: 22px;
+}
