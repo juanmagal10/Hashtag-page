@@ -14,7 +14,7 @@ const Header = () => {
                   <ul className='list-items'>
                       <li>Sobre nosotros</li>
                       <li>Proyectos</li>
-                      <li>Areas</li>
+                      <li>Servicios</li>
                       <li>Personal</li>
                   </ul>
               </nav>

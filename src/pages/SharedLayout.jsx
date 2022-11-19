@@ -6,11 +6,13 @@ import { Outlet } from 'react-router-dom'
 
 const SharedLayout = () => {
   return (
-    <div className='shared-layout-container'>
+    <>
+    <main className='shared-layout-container'>
           <Header />
           <Outlet />
           <Footer/>
-    </div>
+    </main>
+    </>
   )
 }
 
