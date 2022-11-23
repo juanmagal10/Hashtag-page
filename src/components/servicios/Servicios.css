@@ -12,10 +12,13 @@
         font-weight: bold;
         margin-left: 40px;
         margin-bottom: 40px;
+    
 }
 
 .servicios-section .servicios-title-container .servicios-titulo{
     margin-bottom: 50px;
+    margin: 10px 0;
+    
 }
 
 .servicios-section .servicios-grid-container{
@@ -24,14 +27,12 @@
     gap: 40px;
     grid-auto-rows: 22rem;
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
-    border:solid 1px green;
     margin: 0 70px;
     padding: 0 30px;
 }
 
 .servicios-section .servicios-grid-container .grid-service-item{
     height: fit-content;
-    border: 2px solid blue;
     overflow: hidden;
     width: 300px;
     display: flex;
@@ -45,4 +46,9 @@
 .servicios-section .servicios-grid-container .grid-service-item .single-servicio-title{
     margin: 10px;
     font-size: 22px;
+}
+
+.servicios-section .servicios-grid-container .grid-service-item .single-servicio-text{
+    margin: 20px 0;
+    width: 85%;
 }
