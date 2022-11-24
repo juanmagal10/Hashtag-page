@@ -41,6 +41,7 @@
     width: 100%;
     align-items: center;
     text-align: center;
+    border: .4 solid black;
 }
 
 .servicios-section .servicios-grid-container .grid-service-item .single-servicio-title{
