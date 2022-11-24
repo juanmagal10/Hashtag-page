@@ -3,6 +3,9 @@
     height: 80vh;
     justify-content: space-around;
     position: relative;
+    background-image: url('../../assets/fondo-principal2.jpg');
+    background-size: cover;
+
 }
 
 /*Un container para cada uno de los perfiles*/
