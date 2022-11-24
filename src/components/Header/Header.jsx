@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../../assets/descarga.png'
 import './Header.css'
+import {FaBars} from 'react-icons/fa'
 
 const Header = () => {
-  return (
-      <header className='header'>
+    const [showAside, setShowAside] = useState(false)
+    
+    const showAsideFunction = () => {
+        setShowAside(!showAside)
+    }
+
+    return (
+      <>
+      <div className={showAside?'modal':'modal-off'} onClick={showAsideFunction}></div>
+        <header className='header'>
           <div></div>
           <div className="logo-container">
               <img src={logo} alt="logo" />
@@ -18,8 +27,26 @@ const Header = () => {
                       <li>Personal</li>
                   </ul>
               </nav>
+
+             <div className="open-asside-btn" >
+              <FaBars className='show-aside-icon' onClick={showAsideFunction}/>
+            </div>
+          </div>
+
+          { /*aside navbar*/ }
+
+          <div className={showAside?'aside-navbar-container':'aside-navbar-container-hidden'}>
+              <nav className='aside-navbar'>
+                  <ul className='list-aside-items'>
+                      <li className={showAside?null:'aside-nav-container-hidden'}>Sobre nosotros</li>
+                      <li className={showAside?null:'aside-nav-container-hidden'}>Proyectos</li>
+                      <li className={showAside?null:'aside-nav-container-hidden'}>Servicios</li>
+                      <li className={showAside?null:'aside-nav-container-hidden'}>Personal</li>
+                  </ul>
+              </nav>
           </div>
     </header>
+      </>
   )
 }
 
