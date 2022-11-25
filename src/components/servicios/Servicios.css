@@ -21,7 +21,9 @@
     font-weight: bold;
     margin-bottom: 50px;
     margin: 10px 0;
-    color: #ceeefa;  
+    color: #ceeefa;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .servicios-section .servicios-grid-container{
@@ -50,11 +52,23 @@
     border: 1px solid rgba(17, 4, 83, 0.275);
     border-radius: 6px;
     color: #ceeefa;
+    cursor: pointer;
+    transition-duration: .4s;
+    
+}
+
+.servicios-section .servicios-grid-container .grid-service-item:hover{
+    transform: scale(1.02);
+    background: rgba(35, 25, 113, 0.55);
+    /* background-color: red; */
+
 }
 
 .servicios-section .servicios-grid-container .grid-service-item .single-servicio-title{
     margin: 10px;
     font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .servicios-section .servicios-grid-container .grid-service-item .single-servicio-text{

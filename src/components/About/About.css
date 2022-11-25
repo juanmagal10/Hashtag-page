@@ -34,6 +34,8 @@
 .about-container .about-title-container .about-title{
     font-size: 30px;
     text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 
 }
 .about-container .about-text-container{
