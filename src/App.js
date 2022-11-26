@@ -4,6 +4,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './pages/Home';
 import SharedLayout from './pages/SharedLayout';
 import SingleService from './pages/SingleService/SingleService';
+const {servicesData}=require('./assets/servicesData/servicesData')
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
             index
             element={<Home />}>
           </Route>
-          <Route path='/:servicio' element={<SingleService/>}>
+          <Route path='/:servicio' element={<SingleService servicios={servicesData} />}>
           </Route>
         </Route>
       </Routes>
