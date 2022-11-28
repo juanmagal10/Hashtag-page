@@ -2,6 +2,7 @@
     padding: 50px;
     position: relative;
     display: flex;
+    flex-direction: column;
     
 }
 
@@ -40,15 +41,34 @@
 }
 .about-container .about-text-container{
     display: flex;
-    justify-content: end;
-    margin-top: 100px
-
+    align-items: flex-end;
+    margin-top: 100px;
+    flex-direction:column;
 }
 
 .about-text-container p{
-    margin-left: 15%;
     text-align: right;
-    margin-right: 15px;
     font-size: 19px;
     font-weight: 500;
+    margin: 0 15px 25px 15%;
+}
+
+.about-text-container h5{
+    text-align: left;
+    width: 15%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.about-text-container .about-list{
+    align-self: flex-start;
+    margin-left: 15%;
+}
+
+.about-text-container .about-list .about-list-item{
+    list-style:inside;
+    margin: 5px 0;
 }
