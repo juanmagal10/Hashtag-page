@@ -14,7 +14,7 @@ const Header = () => {
       <>
       <div className={showAside?'modal':'modal-off'} onClick={showAsideFunction}></div>
         <header className='header'>
-          <div></div>
+          <div className='filler-div'></div>
           <div className="logo-container">
               <img src={logo} alt="logo" />
           </div>

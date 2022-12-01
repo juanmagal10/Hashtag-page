@@ -5,7 +5,6 @@
     position: relative;
     background-image: url('../../assets/fondo-principal2.jpg');
     background-size: cover;
-
 }
 
 /*Un container para cada uno de los perfiles*/
@@ -129,4 +128,43 @@
         opacity: 100%;
     }
     
+}
+
+@media screen and (max-width:700px) {
+    .principal-section-container .right-img-container .img-text-container .right-profile-pic{
+        height: 65%;
+    }
+    .principal-section-container .left-img-container .img-text-container .left-profile-pic{
+        height: 65%;
+    }
+
+    .principal-section-container .right-img-container .img-text-container .profile-name-right{
+        top: 65%;
+    }
+
+    .principal-section-container .left-img-container .img-text-container .profile-name-left{
+        top: 65%;
+    }
+
+}
+
+@media screen and (max-width:500px){
+    .principal-section-container {
+            height: 60vh;
+        }
+    .principal-section-container .right-img-container .img-text-container .right-profile-pic {
+        height: 45%;
+    }
+
+    .principal-section-container .left-img-container .img-text-container .left-profile-pic {
+        height: 45%;
+    }
+
+    .principal-section-container .right-img-container .img-text-container .profile-name-right {
+        top: 55%;
+    }
+
+    .principal-section-container .left-img-container .img-text-container .profile-name-left {
+        top: 55%;
+    }
 }

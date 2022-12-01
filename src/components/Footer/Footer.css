@@ -6,7 +6,7 @@
     background-color: var(--rosa);
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     bottom: -120px;
     margin-top:80px;
 }
@@ -31,11 +31,32 @@
     align-items: center;
 }
 
-.footer .social-media-container a{
+.footer .social-media-container a:first-child{
     transition-duration:.4s ;
+    
+}
+
+.footer .social-media-container a .social-media-img{
+    font-size: 22px;
 }
 
 .footer .social-media-container a:hover{
     color: aliceblue;
     transform: scale(1.2);
+}
+
+@media screen and (max-width:700px){
+    .footer .adress-container .address{
+        font-size: 10px;
+        margin-left: 2px;
+    }
+
+    .footer .social-media-container{
+        justify-content: space-between;
+    }
+
+    .footer .social-media-container a .social-media-img{
+        font-size: 19px;
+        margin-right: 2px;
+    }
 }

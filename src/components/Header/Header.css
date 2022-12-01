@@ -6,7 +6,7 @@
     background-color: var(--azul);
     position: fixed;
     z-index: 100000;
-    width: 100%;
+    width: 100vw;
 }
 
 .modal-off{
@@ -113,6 +113,7 @@
     font-weight: bold;
     cursor: pointer;
     transition-duration: .4s;
+    text-align: center;
 }
 
 .header .aside-navbar-container .aside-navbar ul li:hover {
@@ -148,6 +149,19 @@
         height: 33px;
         width: 33px;
 
+    }
+}
+
+@media screen and (max-width:700px){
+    .filler-div{
+        display: none;
+    }
+    .header{
+        display: flex;
+        justify-content: space-around;
+    }
+    .header .aside-navbar-container .aside-navbar ul li{
+        font-size: 19px;
     }
 }
 
