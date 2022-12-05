@@ -3,6 +3,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    scroll-margin-top: 120px;
     
 }
 
@@ -37,6 +38,7 @@
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+  
 
 }
 .about-container .about-text-container{

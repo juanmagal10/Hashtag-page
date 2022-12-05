@@ -13,6 +13,10 @@
     letter-spacing: .4mm;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 
 body {

@@ -3,7 +3,7 @@ import './About.css'
 
 const About = () => {
   return (
-    <article className='about-container'>
+    <article className='about-container' id='about'>
       <div className="hero"></div>
         <div className="about-title-container">
           <h2 className='about-title'>Que es Hashtag??</h2>

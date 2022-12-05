@@ -4,21 +4,9 @@ import img from '../../assets/profile-pic.jpg'
 import './PrincipalSection.css'
 
 const PrincipalSection = () => {
-// let img=null
-//     useEffect(() => {
-//       img=fetch('../../assets/profile-pic.jpg')
-//         .then(res=>res.blob())
-//         .then(res => img.src = URL.createObjectURL(img))
-//         // console.log(img)
-//     }, [])
-  
-    // useEffect(() => {
-    //   axios('../../assets/PrincipalSectionData/profile-pic.jpg')
-    //     .then(res=>console.log(res))
-       
-    // },[])
+
   return (
-    <section className='principal-section-container'>
+    <section className='principal-section-container' id='inicio'>
       <div className="left-img-container">
         <div className="img-text-container">
           <img src={img} alt='profile picture' loading='lazy' className='left-profile-pic profile-pic' />

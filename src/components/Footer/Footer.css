@@ -31,13 +31,11 @@
     align-items: center;
 }
 
-.footer .social-media-container a:first-child{
-    transition-duration:.4s ;
-    
-}
 
-.footer .social-media-container a .social-media-img{
+
+.footer .social-media-container a {
     font-size: 22px;
+    transition:all .4s;
 }
 
 .footer .social-media-container a:hover{
