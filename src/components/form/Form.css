@@ -1,85 +1,194 @@
 .form-section{
     width: 100vw;
     display: flex;
-    justify-content: center;
     scroll-margin-top: 120px;
+    margin-top: 100px;
+    justify-content: center;
 
 }
 
-.form-container{
+.form-section .form-container{
     border: 1px solid #23242a;
     display: flex;
-    flex-wrap: wrap;
     position: relative;
     padding-left: 5%;
     border-radius: 6px;
     height: 600px;
     box-shadow: 3px 3px 15.5px 3px #aaaaaa;
-    background-color: var(--amarillo);
+    background-color: #f2f2f2;
     margin: 30px;
     width: 75%;
+    justify-content: space-between;
 }
 
-.form-section .form-title-container{
+.form-section .form-container .form-title-img-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+}
+
+
+.form-section .form-container .form-title-img-container .form-title-container{
     width: 100%;
     margin-bottom: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    flex-direction: column;
+    height: 20%;
 }
 
-.form-section .form-title-container .form-title{
-    font-size: 35px;
+.form-section .form-container .form-title-img-container .form-title-container .form-title{
+    font-size: 45px;
     font-family: 'Roboto', sans-serif;
-    color: var(azul);
+    color: #292929;
+    font-weight: bold;
+    margin-top: 35px;
     font-weight: bold;
 }
 
-.form-section .form-image-container{
-    width: 30%;
+.form-section .form-container .form-title-img-container .form-image-container{
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: start;
+    align-items: center;
+    height: 80%;
+    flex-direction: column;
 }
 
-.form-section .form-image-container .form-img{
-    border-radius: 50%;
-    object-fit: cover;
+.form-section .form-container .form-title-img-container .form-image-container .form-subtitle{
+    color: #292929;
+    font-size: 25px;
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+.form-section .form-container .form-title-img-container .form-image-container .form-img{
+    object-fit: scale-down;
     width: 250px;
     height: 250px;
-    margin:20px 40px 0 0;
-    position: absolute;
-    top: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    object-position: -1px;
+    background-color: var(--amarillo);
+    -webkit-box-shadow: 8.5px 6px 10.5px -3px #888888;
+    -moz-box-shadow: 8.5px 6px 10.5px -3px #888888;
+    box-shadow: 8.5px 6px 10.5px -3px #888888;
 
 }
 
-.form-section .form-inputs-container{
-    width: 70%;
+.form-section .form-container .form-inputs-container{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.form-section .form-container .form-inputs-container .form{
+    height: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-content: center;
+    justify-content: space-around;
 }
 
-.form-section .form-inputs-container .form-input{
+.form-section .form-container .form-inputs-container .form-input{
     width: 80%;
-    margin: 10px auto;
+    margin: 2px auto;
     margin-left: 10%;
-    border-radius: 2px;
+    border-radius: 4px;
     outline: none;
     padding: 5px;
-    font-size: 14px;
+    font-size: 16px;
     border: none;
     padding-left: 7px;
+    background-color: #f9f9f9;
+    color: white;
+    height: 25px;
 }
 
-.form-section .form-inputs-container .form-textarea{
+.form-section .form-container .form-inputs-container .form-input:focus{
+    border: .5px solid var(--lila);
+}
+
+.form-section .form-container .form-inputs-container .form-textarea{
     width: 80%;
-    margin: 10px auto;
+    margin: 2px auto;
     margin-left: 10%;
     border-radius: 3px;
     outline: none;
     padding: 5px;
-    font-size: 14px;
+    font-size: 16px;
     border: none;
     padding-left: 7px;
+    background-color: #f9f9f9;
+}
+
+@media screen and (max-width:750px){
+    .form-section .form-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-section .form-container .form-title-img-container{
+    height: 40%;
+    width: 90%;
+    }
+
+    .form-section .form-container .form-title-img-container .form-title-container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .form-section .form-container .form-title-img-container .form-title-container .form-title {
+        margin-top: 28px;
+        font-size: 40px; 
+    }
+
+    .form-section .form-container .form-title-img-container .form-image-container .form-img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 0;
+    }
+
+    .form-section .form-container .form-title-img-container .form-image-container .form-subtitle{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .form-section .form-container .form-inputs-container {
+        width: 90%;
+        align-items: center;
+        height: 60%;
+    }
+
+    .form-section .form-container .form-inputs-container .form-input{
+        width: 90%;   
+        margin-left: 0;
+    }
+
+    .form-section .form-container .form-inputs-container .form-textarea{
+        width: 90%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .form-section .form-container {
+        width: 90%;
+        margin: 30px 10px;
+        }
+
+    .form-section .form-container .form-title-img-container .form-title-container .form-title {
+        margin-top: 24px;
+        font-size: 35px;
+    }
+
+    .form-section .form-container .form-title-img-container .form-image-container .form-subtitle {
+        font-size: 18px;
+        margin-top: 15px;
+    }
 }

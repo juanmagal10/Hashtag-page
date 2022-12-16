@@ -6,7 +6,8 @@ const About = () => {
     <article className='about-container' id='about'>
       <div className="hero"></div>
         <div className="about-title-container">
-          <h2 className='about-title'>Que es Hashtag??</h2>
+        <h2 className='about-title'>Que es Hashtag<h2 className='simbolo r'>?</h2><h2 className='simbolo l'>?</h2></h2>
+        
         </div>
         <div className="about-text-container">
           <p className='about-text'>¡HOLA! Somos Clari y Ro 👭🏻, juntas conformamos el Team Hashtag Agencia de Marketing Digital 🖥.

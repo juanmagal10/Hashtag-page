@@ -1,5 +1,5 @@
 import React from 'react';
-import formImg from '../../assets/profile-pic.jpg'
+import formImg from '../../assets/logo-negro.png'
 import './Form.css'
 
 const Form = () => {
@@ -7,14 +7,18 @@ const Form = () => {
   return (
       <section className='form-section' id='contacto'>
           <div className="form-container">
+              <div className="form-title-img-container">
+                  
               <div className="form-title-container">
                   <h3 className='form-title'>Contactanos!!</h3>
               </div>
               <div className="form-image-container">
-                  <img src={formImg} alt="" className='form-img'/>
+                      <img src={formImg} alt="" className='form-img' />
+                      <h5 className='form-subtitle'>Hagamos crecer tu negocio!!!</h5>
+              </div>
               </div>
               <div className="form-inputs-container">
-                  <form action="">
+                  <form action="" className='form'>
                       <form-control>
                           <label htmlFor="name"></label>
                           <input type="text" id='name' name='name' className='form-input' placeholder='nombre'/>
@@ -41,6 +45,7 @@ const Form = () => {
                       </form-control>
                   </form>
               </div>
+             
           </div>
     </section>
   )

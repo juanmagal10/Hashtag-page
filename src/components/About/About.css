@@ -34,13 +34,25 @@
    
 }
 .about-container .about-title-container .about-title{
-    font-size: 30px;
+    font-size: 40px;
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-  
-
+    color: #222;
 }
+.about-container .about-title-container .about-title .simbolo{
+    display: inline;
+    margin: 0;
+}
+
+.l{
+    color: var(--lila);
+}
+
+.r{
+    color: var(--rosa)
+}
+
 .about-container .about-text-container{
     display: flex;
     align-items: flex-end;
@@ -53,6 +65,7 @@
     font-size: 19px;
     font-weight: 500;
     margin: 0 15px 25px 15%;
+    color: #222;
 }
 
 .about-text-container h5{
@@ -63,6 +76,7 @@
     font-weight: bold;
     align-self: flex-start;
     margin-bottom: 20px;
+    color: #222;
 }
 
 .about-text-container .about-list{
@@ -73,4 +87,5 @@
 .about-text-container .about-list .about-list-item{
     list-style:inside;
     margin: 5px 0;
+    color: #222;
 }

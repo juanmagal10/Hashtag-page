@@ -16,7 +16,7 @@
 }
 
 .chose-us-section .chose-us-title-container .chose-us-title{
-        font-size: 30px;
+        font-size: 40px;
         margin-left: 20px;
         text-align: center;
         font-family: 'Roboto', sans-serif;
@@ -34,13 +34,13 @@
     text-align: center;
     font-size: 19px;
     font-weight: 500;
-    color: var(--amarillo);
+    color: #222;
 }
 
 .chose-us-section .chose-us-hero {
     position: absolute;
     z-index: -1000;
-    background-color: var(--azul);
+    background-color: var(--rosa);
     width: 90%;
     height: 50%;
     align-self: center;
