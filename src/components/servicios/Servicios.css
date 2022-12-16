@@ -59,12 +59,10 @@
     
 }
 
-.servicios-section .servicios-grid-container .grid-service-item:hover{
+/* .servicios-section .servicios-grid-container .grid-service-item:hover{
     transform: scale(1.02);
     background: rgba(35, 25, 113, 0.55);
-    /* background-color: red; */
-
-}
+} */
 
 .servicios-section .servicios-grid-container .grid-service-item .single-servicio-title{
     margin: 10px;
@@ -106,7 +104,22 @@
        margin: 0 20px;
     }
     .servicios-section .servicios-grid-container .grid-service-item {
-        width: 260px;
+        /* width: 260px; */
+    }
+}
+
+@media screen and (max-width:950px){
+    .servicios-section .servicios-grid-container{
+        grid-template-rows: 30rem;
+    }
+
+    .servicios-section .servicios-grid-container .grid-service-item{
+        height: 29rem;
+
+    }
+
+    .servicios-section .servicios-grid-container .grid-service-item .servicio-imagen {
+        object-position: top;
     }
 }
 

@@ -109,9 +109,28 @@
     height: 25px;
 }
 
-.form-section .form-container .form-inputs-container .form-input:focus{
+.form-section .form-container .form-inputs-container .form-input1:focus{
+    border: .5px solid var(--rosa);
+}
+
+.form-section .form-container .form-inputs-container .form-input2:focus{
+    border: .5px solid var(--amarillo);
+}
+
+.form-section .form-container .form-inputs-container .form-input3:focus{
     border: .5px solid var(--lila);
 }
+
+.form-section .form-container .form-inputs-container .form-input4:focus{
+    border: .5px solid var(--azul);
+}
+
+.form-section .form-container .form-inputs-container .form-input5:focus{
+    border: .5px solid var(--rosa);
+}
+
+
+
 
 .form-section .form-container .form-inputs-container .form-textarea{
     width: 80%;
@@ -125,6 +144,12 @@
     padding-left: 7px;
     background-color: #f9f9f9;
 }
+
+.form-section .form-container .form-inputs-container .form-textarea:focus{
+    border: .5px solid var(--amarillo);
+}
+
+
 
 @media screen and (max-width:750px){
     .form-section .form-container {
@@ -144,7 +169,7 @@
     }
 
     .form-section .form-container .form-title-img-container .form-title-container .form-title {
-        margin-top: 28px;
+        margin-top: 26px;
         font-size: 40px; 
     }
 
@@ -156,7 +181,7 @@
 
     .form-section .form-container .form-title-img-container .form-image-container .form-subtitle{
         font-size: 20px;
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .form-section .form-container .form-inputs-container {

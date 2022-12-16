@@ -15,12 +15,21 @@
    
 }
 
+/* color de los simbolos de interrogacion */
+.a{
+    color: var(--amarillo);
+}
+.az{
+    color: var(--lila);
+}
+
 .chose-us-section .chose-us-title-container .chose-us-title{
         font-size: 40px;
         margin-left: 20px;
         text-align: center;
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
+        color: var(--azul);
 }
 
 .chose-us-section .chose-us-text-container{
@@ -34,7 +43,7 @@
     text-align: center;
     font-size: 19px;
     font-weight: 500;
-    color: #222;
+    color: #333;
 }
 
 .chose-us-section .chose-us-hero {

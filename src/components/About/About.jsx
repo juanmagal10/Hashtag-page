@@ -6,7 +6,7 @@ const About = () => {
     <article className='about-container' id='about'>
       <div className="hero"></div>
         <div className="about-title-container">
-        <h2 className='about-title'>Que es Hashtag<h2 className='simbolo r'>?</h2><h2 className='simbolo l'>?</h2></h2>
+        <h2 className='about-title'>Que es Hashtag<b className='simbolo r'>?</b><b className='simbolo l'>?</b><b className='simbolo a'>?</b></h2>
         
         </div>
         <div className="about-text-container">

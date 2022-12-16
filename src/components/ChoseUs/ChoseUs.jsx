@@ -8,7 +8,7 @@ const ChoseUs = () => {
           <div className="chose-us-hero"></div>
           <div className="chose-us-title-container">
               <h2 className='chose-us-title'>
-                  Porque Elegirnos??
+                  Porque Elegirnos<b className='az'>?</b><b className='a'>?</b>
               </h2>
           </div>
           <div className="chose-us-text-container">

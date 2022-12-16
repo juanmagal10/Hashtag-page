@@ -3,12 +3,13 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 100%;
-    background-color: var(--rosa);
+    background-color:transparent;
     position: relative;
     bottom: 0;
     width: 100vw;
     bottom: -120px;
     margin-top:80px;
+    border-top: 1px solid #333;
 }
 
 
@@ -23,6 +24,7 @@
     margin: 4px 0;
     font-size: 14px;
     margin-left: 4px;
+    color: #494949;
 }
 
 .footer .social-media-container{
@@ -36,10 +38,21 @@
 .footer .social-media-container a {
     font-size: 22px;
     transition:all .4s;
+    /* color: #eee; */
+}
+
+.footer .social-media-container a:first-child{
+    color: var(--lila);
+}
+
+.footer .social-media-container a:nth-child(2){
+    color: var(--amarillo);
+}
+.footer .social-media-container a:nth-child(3){
+    color: var(--rosa);
 }
 
 .footer .social-media-container a:hover{
-    color: aliceblue;
     transform: scale(1.2);
 }
 

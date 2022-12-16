@@ -21,23 +21,23 @@ const Form = () => {
                   <form action="" className='form'>
                       <form-control>
                           <label htmlFor="name"></label>
-                          <input type="text" id='name' name='name' className='form-input' placeholder='nombre'/>
+                          <input type="text" id='name' name='name' className='form-input form-input1' placeholder='nombre'/>
                       </form-control>
                       <form-control>
                           <label htmlFor="email"></label>
-                          <input type="email" id='email' name='email' className='form-input' placeholder='email'/>
+                          <input type="email" id='email' name='email' className='form-input form-input2' placeholder='email'/>
                       </form-control>
                       <form-control>
                           <label htmlFor="tel"></label>
-                          <input type="number" id='tel' name='tel' className='form-input' placeholder='telefono'/>
+                          <input type="text" id='tel' name='tel' className='form-input form-input3' placeholder='telefono'/>
                       </form-control>
                       <form-control>
                           <label htmlFor="city"></label>
-                          <input type="text" id='city' name='city' className='form-input' placeholder='ciudad'/>
+                          <input type="text" id='city' name='city' className='form-input form-input4' placeholder='ciudad'/>
                       </form-control>
                       <form-control>
                           <label htmlFor="company"></label>
-                          <input type="text" id='company' name='company' className='form-input' placeholder='empresa'/>
+                          <input type="text" id='company' name='company' className='form-input form-input5' placeholder='empresa'/>
                       </form-control>
                       <form-control>
                           <label htmlFor="message"></label>
