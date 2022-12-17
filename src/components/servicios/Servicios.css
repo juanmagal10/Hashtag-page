@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     scroll-margin-top: 120px;
+    width: 100%;
 }
 
 .servicios-section .servicios-title-container{
@@ -127,22 +128,30 @@
 }
 
 @media screen and (max-width:500px){
+  
     .servicios-section {
             padding: 20px 0px;
             justify-content: center;
             align-items: center;
-        }
+    }
+
+    .servicios-section .servicios-title-container .servicios-title {
+        margin-bottom: 20px;
+    }
 
     .servicios-section .servicios-grid-container {
         gap: 30px;
-        margin: 0;
-        padding: 10px 0px;
+        padding: 10px auto;
         width: 90%;
+        place-content: center;
     }
 
     .servicios-section .servicios-grid-container .grid-service-item {
         width: 80%;
-        margin: 10px 0px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 
