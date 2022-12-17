@@ -34,6 +34,7 @@
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
     margin: 0 70px;
     padding: 0 30px;
+    width: 100%;
 }
 
 .servicios-section .servicios-grid-container .grid-service-item{
@@ -125,22 +126,23 @@
     }
 }
 
-@media screen and (max-width:950px){
+@media screen and (max-width:500px){
     .servicios-section {
-            padding: 20px;
+            padding: 20px 0px;
+            justify-content: center;
+            align-items: center;
         }
 
     .servicios-section .servicios-grid-container {
-        gap: 40px;
-        grid-auto-rows: 30rem;
-        grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+        gap: 30px;
         margin: 0;
-        padding: 0;
+        padding: 10px 0px;
+        width: 90%;
     }
 
     .servicios-section .servicios-grid-container .grid-service-item {
-            width: 90%;
-            margin: 10px;
-        }
+        width: 80%;
+        margin: 10px 0px;
+    }
 }
 
