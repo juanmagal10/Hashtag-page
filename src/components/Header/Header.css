@@ -100,7 +100,7 @@
 
 .header .aside-navbar-container {
     height: 74vh;
-    width: 30%;
+    width: 50%;
     position: absolute;
     background: rgba(17, 4, 83);
     /* background: rgba(17, 4, 83, 0.65); */
@@ -123,9 +123,7 @@
     align-items: center;
 }
 
-.header .aside-navbar-container .aside-navbar ul li {
-    font-size: 24px;
-    color: var(--azul);
+.header .aside-navbar-container .aside-navbar .list-aside-items .aside-item {
     font-weight: bold;
     cursor: pointer;
     transition-duration: .4s;
@@ -133,7 +131,6 @@
 }
 
 .header .aside-navbar-container .aside-navbar ul li:hover {
-    color: #f0f8ff;
     transform: scale(1.1);
 }
 

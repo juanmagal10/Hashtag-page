@@ -40,10 +40,42 @@ const Header = () => {
           <div className={showAside?'aside-navbar-container':'aside-navbar-container-hidden'}>
               <nav className='aside-navbar'>
                   <ul className='list-aside-items'>
-                      <li className={showAside?null:'aside-nav-container-hidden'}><HashLink to='/#about' style={{ textDecoration: 'none', color:'var(--amarillo)' }}>Sobre nosotros</HashLink></li>
-                      <li className={showAside?null:'aside-nav-container-hidden'}><HashLink to='/#servicios' style={{ textDecoration: 'none', color:'var(--amarillo)' }}>Servicios</HashLink></li>
-                      <li className={showAside?null:'aside-nav-container-hidden'}><HashLink to='/#contacto' style={{ textDecoration: 'none', color:'var(--amarillo)' }}>Contacto</HashLink></li>
-                      <li className={showAside?null:'aside-nav-container-hidden'}><HashLink to='/' style={{ textDecoration: 'none', color:'var(--amarillo)' }}>Clientes</HashLink></li>
+                            <li className='aside-item'>
+                                <HashLink to='/#about'
+                                    style={{
+                                        textDecoration: 'none',
+                                        color: 'var(--amarillo)',
+                                        fontSize: '26px',
+                                        transitionDuration: '.4s'
+                                    }}>Sobre nosotros</HashLink> 
+                            </li>
+                            <li className='aside-item'>
+                                <HashLink to='/#servicios'
+                                    style={{
+                                        textDecoration: 'none',
+                                        color: 'var(--amarillo)',
+                                        fontSize: '26px',
+                                        transitionDuration: '.4s'
+                                    }}>Servicios</HashLink> 
+                            </li>
+                            <li className='aside-item'>
+                                <HashLink to='/#contacto'
+                                    style={{
+                                        textDecoration: 'none',
+                                        color: 'var(--amarillo)',
+                                        fontSize: '26px',
+                                        transitionDuration: '.4s'
+                                    }}>Contacto</HashLink> 
+                            </li>
+                            <li className='aside-item'>
+                                <HashLink to='/'
+                                    style={{
+                                        textDecoration: 'none',
+                                        color: 'var(--amarillo)',
+                                        fontSize: '26px',
+                                        transitionAll: '.4s'
+                                    }}>Clientes</HashLink>
+                            </li>
                   </ul>
               </nav>
           </div>
