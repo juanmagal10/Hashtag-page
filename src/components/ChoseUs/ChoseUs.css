@@ -24,19 +24,18 @@
 }
 
 .chose-us-section .chose-us-title-container .chose-us-title{
-        font-size: 40px;
-        margin-left: 20px;
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        color: var(--azul);
+    font-size: 40px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: var(--azul);
 }
 
 .chose-us-section .chose-us-text-container{
     display: flex;
     justify-content: start;
     margin-top: 100px
-
 }
 
 .chose-us-section .chose-us-text-container .chose-us-text{
@@ -58,6 +57,5 @@
     margin-top: 160px;
     bottom: 8px;
     box-shadow: 3px 12px 14.5px 2.5px #dddddd;
-    clip-path: polygon(32.5% 0%, 93.8% 0%, 93.9% 100%, 25.3% 100%);
-    
+    clip-path: polygon(32.5% 0%, 93.8% 0%, 93.9% 100%, 25.3% 100%);  
 }

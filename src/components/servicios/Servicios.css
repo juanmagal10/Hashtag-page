@@ -129,11 +129,10 @@
 }
 
 @media screen and (max-width:500px){
-  
     .servicios-section {
-            padding: 20px 0px;
-            justify-content: center;
-            align-items: center;
+        padding: 20px 0 25px 0;
+        justify-content: center;
+        align-items: center;
     }
 
     .servicios-section .servicios-title-container .servicios-title {
