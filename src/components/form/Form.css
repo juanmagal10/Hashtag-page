@@ -156,7 +156,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }docker 
+    }
 
     .form-section .form-container .form-title-img-container{
     height: 40%;
@@ -215,5 +215,6 @@
     .form-section .form-container .form-title-img-container .form-image-container .form-subtitle {
         font-size: 18px;
         margin-top: 15px;
+        text-align: center;
     }
 }

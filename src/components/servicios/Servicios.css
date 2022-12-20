@@ -10,6 +10,7 @@
     background-size: cover;
     scroll-margin-top: 120px;
     width: 100%;
+    align-items: center;
 }
 
 .servicios-section .servicios-title-container{
@@ -30,12 +31,12 @@
 .servicios-section .servicios-grid-container{
     height: fit-content;
     display: grid;
-    gap: 50px;
+    gap: 40px;
     grid-auto-rows: 30rem;
-    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
-    margin: 0 70px;
-    padding: 0 30px;
-    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+    margin: 0 0px;
+    padding: 0 15px 0 15px;
+    width: 95%;
 }
 
 .servicios-section .servicios-grid-container .grid-service-item{
@@ -110,7 +111,7 @@
 
 @media screen and (max-width:950px){
     .servicios-section{
-        padding: 50px;
+        padding: 50px 0;
     }
 
     .servicios-section .servicios-grid-container{

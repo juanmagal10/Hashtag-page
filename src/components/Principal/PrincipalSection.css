@@ -151,21 +151,21 @@
 
 @media screen and (max-width:500px){
     .principal-section-container {
-            height: 60vh;
-        }
+        height: 45vh;
+    }
     .principal-section-container .right-img-container .img-text-container .right-profile-pic {
-        height: 55%;
+        height: 64%;
     }
 
     .principal-section-container .left-img-container .img-text-container .left-profile-pic {
-        height: 55%;
+        height: 64%;
     }
 
     .principal-section-container .right-img-container .img-text-container .profile-name-right {
-        top: 55%;
+        top: 68%;
     }
 
     .principal-section-container .left-img-container .img-text-container .profile-name-left {
-        top: 55%;
+        top: 68%;
     }
 }
