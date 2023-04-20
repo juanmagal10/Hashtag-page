@@ -5,10 +5,11 @@
 }
 
 :root {
-  --lila:#a90962;
-  --rosa:#ff006b;
-  --amarillo:#f9bf30;
-  --azul:#110453;
+  --lila:#c70064;
+  --rosa:#ff60bd;
+  --amarillo:#ffc00b;
+  --azul:#d8ccff;
+  --blanco:#f8fdfff7;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: .4mm;
 }

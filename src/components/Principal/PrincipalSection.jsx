@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import axios from 'axios';
-import img from '../../assets/profile-pic.jpg'
+import img from '../../assets/profile-pic-clari.JPG'
+import img2 from '../../assets/profile-pic-ro.JPG'
 import './PrincipalSection.css'
 
 const PrincipalSection = () => {
@@ -16,7 +17,7 @@ const PrincipalSection = () => {
 
         <div className="right-img-container">
           <div className="img-text-container">
-            <img src={img} alt='profile picture' loading='lazy' className='right-profile-pic' />
+            <img src={img2} alt='profile picture' loading='lazy' className='right-profile-pic' />
             <h2 className='profile-name-right'>Rocio Arias</h2>
           </div>
         </div>

@@ -31,6 +31,8 @@
     animation: aparecerIzq 1s ease-out forwards;
     height: 80%;
     margin-top: 40px;
+    border-radius: 4px;
+    box-shadow: 11px 15px 13.5px -8px #484848;
 }
 
 
@@ -86,7 +88,8 @@
     justify-content: space-around;
     position: relative;
     margin-top: 40px;
- 
+    border-radius: 4px;
+    box-shadow: 11px 15px 13.5px -8px #484848;
 }
 
 .principal-section-container .right-img-container .img-text-container .profile-name-right {

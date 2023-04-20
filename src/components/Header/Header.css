@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px;
     height: 120px;
-    background-color: var(--azul);
+    background-color: var(--rosa);
     position: fixed;
     z-index: 100000;
     width: 100vw;

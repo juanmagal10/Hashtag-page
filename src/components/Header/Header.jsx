@@ -22,10 +22,10 @@ const Header = () => {
           <div className="navbar-container">
               <nav className='navbar'>
                   <ul className='list-items'>
-                            <li><HashLink to='/#about' style={{ textDecoration: 'none', color:'var(--amarillo)' }}>Sobre nosotros</HashLink></li>
-                            <li><HashLink to='/#servicios' style={{ textDecoration: 'none', color:'var(--amarillo)' }}>Servicios</HashLink></li>
-                            <li><HashLink to='/#contacto' style={{ textDecoration: 'none', color:'var(--amarillo)' }}>Contacto</HashLink></li>
-                            <li><HashLink to='/' style={{ textDecoration: 'none', color:'var(--amarillo)' }}>Clientes</HashLink></li>
+                            <li><HashLink to='/#about' style={{ textDecoration: 'none', color:'var(--blanco)' }}>Sobre nosotros</HashLink></li>
+                            <li><HashLink to='/#servicios' style={{ textDecoration: 'none', color:'var(--blanco)' }}>Servicios</HashLink></li>
+                            <li><HashLink to='/#contacto' style={{ textDecoration: 'none', color:'var(--blanco)' }}>Contacto</HashLink></li>
+                            <li><HashLink to='/' style={{ textDecoration: 'none', color:'var(--blanco)' }}>Clientes</HashLink></li>
        
                   </ul>
               </nav>
