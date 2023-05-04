@@ -30,13 +30,14 @@
     height: inherit;
     width: 100%;
     align-items: center;
+    margin-left: 10%;
 }
 
 .header .logo-container .logo{
     height: 120px;
     width: 250px;
     object-fit: cover;
-    margin-top: 10px;
+    margin-top: 20px;
     cursor: pointer;
     transition-duration: .4s;
 }
@@ -68,17 +69,17 @@
     display: flex;
     justify-content: space-around;
     margin-right: 20px;
-    align-items: center;
+    align-items: flex-end;
     height: 100%;
 }
 
 .header .navbar-container .navbar .list-items li{
-    margin-top: 10px;
+    margin-bottom: 20px;
     position: relative;
     font-size: 24px;
     transition-duration: .4s;
     cursor: pointer;
-    color: var(--amarillo);
+    color: var(--blanco);
     text-align: center;
     display: flex;
     align-items: center;
@@ -89,7 +90,6 @@
 }
 
 .header .navbar-container .navbar .list-items li:hover{
-    color: white !important;
     transform: scale(1.05);
 }
 

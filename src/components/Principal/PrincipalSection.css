@@ -1,24 +1,22 @@
-.principal-section-container{
+.principal-section-container {
     display: flex;
-    height: 80vh;
+    height: calc(100vh - 120px);
     justify-content: space-around;
     position: relative;
     background-image: url('../../assets/fondo-principal2.jpg');
     background-size: cover;
-    scroll-margin-top:120px ;
+    scroll-margin-top: 120px;
 }
 
 /*Un container para cada uno de los perfiles*/
-
 /*Container izquierdo*/
-
-.principal-section-container .left-img-container{
+.principal-section-container .left-img-container {
     width: 50%;
     display: flex;
     justify-content: center;
 }
 
-.principal-section-container .left-img-container .img-text-container{
+.principal-section-container .left-img-container .img-text-container {
     position: relative;
     height: 100%;
     display: flex;
@@ -26,22 +24,20 @@
     width: 80%;
 }
 
-
-.principal-section-container .left-img-container .img-text-container .left-profile-pic{
+.principal-section-container .left-img-container .img-text-container .left-profile-pic {
     animation: aparecerIzq 1s ease-out forwards;
-    height: 80%;
+    height: 85%;
     margin-top: 40px;
     border-radius: 4px;
     box-shadow: 11px 15px 13.5px -8px #484848;
 }
 
 
-
 .principal-section-container .left-img-container .img-text-container .profile-name-left {
     margin-left: 50%;
     z-index: 15000;
     position: absolute;
-    top: 75%;
+    top: 80%;
     color: var(--amarillo);
     font-size: 30px;
     text-shadow: 1px 1px #222;
@@ -49,45 +45,41 @@
     animation: aparecer 1.5s ease-out 1s forwards;
 }
 
-
-
 @keyframes aparecerIzq {
     0% {
         margin-left: -60%;
         opacity: 0%;
     }
-    
+
     100% {
         margin-left: 0%;
         opacity: 100%;
     }
 }
 
-
-
 /*Container Derecho*/
-
-.principal-section-container .right-img-container{
+.principal-section-container .right-img-container {
     width: 50%;
     display: flex;
     justify-content: space-around;
 }
 
-.principal-section-container .right-img-container .img-text-container{
-        position: relative;
-            height: 100%;
-            display: flex;
-            justify-content: space-around;
-            width: 80%;
+.principal-section-container .right-img-container .img-text-container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
 }
 
-.principal-section-container .right-img-container .img-text-container .right-profile-pic{
+.principal-section-container .right-img-container .img-text-container .right-profile-pic {
     animation: aparecerDer 1s ease-in .3s forwards;
     opacity: 0%;
-    height: 80%;
+    height: 85%;
     justify-content: space-around;
     position: relative;
     margin-top: 40px;
+
     border-radius: 4px;
     box-shadow: 11px 15px 13.5px -8px #484848;
 }
@@ -96,7 +88,7 @@
     margin-left: 50%;
     z-index: 15000;
     position: absolute;
-    top: 75%;
+    top: 80%;
     color: var(--amarillo);
     font-size: 30px;
     text-shadow: 1px 1px #222;
@@ -104,58 +96,53 @@
     animation: aparecer 1.5s ease-out 1s forwards;
 }
 
-
-
-
-
-
-
 @keyframes aparecerDer {
     0% {
-            top: -60%;
-            opacity: 0%;
-        }
-    
-        100% {
-            top: 0%;
-            opacity: 100%;
-        }
+        top: -60%;
+        opacity: 0%;
+    }
+
+    100% {
+        top: 0%;
+        opacity: 100%;
+    }
 }
 
 /*estilos generales*/
-
 @keyframes aparecer {
-    0%{
+    0% {
         opacity: 0%;
     }
-    100%{
+
+    100% {
         opacity: 100%;
     }
-    
+
 }
 
 @media screen and (max-width:700px) {
-    .principal-section-container .right-img-container .img-text-container .right-profile-pic{
-        height: 65%;
-    }
-    .principal-section-container .left-img-container .img-text-container .left-profile-pic{
+    .principal-section-container .right-img-container .img-text-container .right-profile-pic {
         height: 65%;
     }
 
-    .principal-section-container .right-img-container .img-text-container .profile-name-right{
+    .principal-section-container .left-img-container .img-text-container .left-profile-pic {
+        height: 65%;
+    }
+
+    .principal-section-container .right-img-container .img-text-container .profile-name-right {
         top: 65%;
     }
 
-    .principal-section-container .left-img-container .img-text-container .profile-name-left{
+    .principal-section-container .left-img-container .img-text-container .profile-name-left {
         top: 65%;
     }
-
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:500px) {
     .principal-section-container {
         height: 45vh;
     }
+
     .principal-section-container .right-img-container .img-text-container .right-profile-pic {
         height: 64%;
     }

@@ -5,7 +5,6 @@ import img2 from '../../assets/profile-pic-ro.JPG'
 import './PrincipalSection.css'
 
 const PrincipalSection = () => {
-
   return (
     <section className='principal-section-container' id='inicio'>
       <div className="left-img-container">
@@ -27,5 +26,4 @@ const PrincipalSection = () => {
     </section>
   )
 }
-
 export default PrincipalSection
