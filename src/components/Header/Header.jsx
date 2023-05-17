@@ -5,16 +5,26 @@ import { FaBars } from 'react-icons/fa'
 import { HashLink } from 'react-router-hash-link'
 
 const Header = () => {
-    const [showAside, setShowAside] = useState(false)
+    const [showAside, setShowAside] = useState(false);
+    const [headerShadow, setHeaderShadow] = useState(false);
     
     const showAsideFunction = () => {
         setShowAside(!showAside)
     }
 
+    const addShadow = () => {
+    if (window.scrollY >= 1) {
+      setHeaderShadow(true)
+    }else {
+      setHeaderShadow(false)
+    }
+  }
+  window.addEventListener('scroll', addShadow)
+
     return (
       <>
       <div className={showAside?'modal':'modal-off'} onClick={showAsideFunction}></div>
-        <header className='header'>
+        <header className={headerShadow?'header-shadow header':'header'}>
           {/* <div className='filler-div'></div> */}
           <div className="logo-container">
               <HashLink to='/#inicio'><img src={logo} alt="logo" className='logo'/></HashLink>

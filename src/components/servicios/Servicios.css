@@ -5,7 +5,8 @@
     justify-content: center;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url('../../assets/fondo-servicios.jpg');
+    /* background-image: url('../../assets/fondo-principal5.jpg'); */
+    background-color: var(--blanco);
     background-repeat: no-repeat;
     background-size: cover;
     scroll-margin-top: 120px;
@@ -23,7 +24,8 @@
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 50px;
-    color: #ceeefa;
+    /* color: #ceeefa; */
+    color: var(--rosa);
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
@@ -40,7 +42,7 @@
 }
 
 .servicios-section .servicios-grid-container .grid-service-item{
-    height: fit-content;
+    min-height: fit-content;
     overflow: hidden;
     width: 300px;
     display: flex;
@@ -49,7 +51,8 @@
     width: 100%;
     align-items: center;
     text-align: center;
-    background: rgba(17, 4, 83, 0.55);
+    /* background: rgba(17, 4, 83, 0.55); */
+    background-color: var(--azul);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     border: 1px solid rgba(155, 200, 190, 0.275);

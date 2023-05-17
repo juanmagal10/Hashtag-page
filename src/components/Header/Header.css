@@ -7,6 +7,11 @@
     position: fixed;
     z-index: 100000;
     width: 100vw;
+    
+}
+
+.header-shadow{
+    box-shadow: .5px .5px 9px 3px #6a6a6a;
 }
 
 .modal-off{
