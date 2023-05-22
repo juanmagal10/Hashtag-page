@@ -10,6 +10,8 @@
     bottom: -120px;
     margin-top:80px;
     border-top: 1px solid #333;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .footer .adress-container{
@@ -19,7 +21,7 @@
 }
 
 .footer .adress-container .address{
-    margin: 4px 0;
+    margin: 5px 0;
     font-size: 14px;
     margin-left: 4px;
     color: #494949;
@@ -34,7 +36,7 @@
 
 
 .footer .social-media-container a {
-    font-size: 22px;
+    font-size: 28px;
     transition:all .4s;
     /* color: #eee; */
 }
