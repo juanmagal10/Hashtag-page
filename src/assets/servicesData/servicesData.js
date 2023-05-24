@@ -34,7 +34,7 @@ export const servicesData = [
    {
         nombre: 'DISEÑO Y GESTIÓN DE PÁGINAS WEB',
         img: require('../code.jpg'),
-        descripcion: 'Podemos crear, diseñar y elaborar piezas gráficas de todo tipo para redes sociales y todo lo que se necesite llevar adelante de la mano del diseño',
+        descripcion: 'Estamos encantados de presentar nuestro nuevo servicio de desarrollo de páginas web, diseñado para impulsar su presencia en línea y potenciar su éxito en el mundo digital.En el entorno altamente competitivo de hoy, contar con un sitio web profesional y atractivo es esencial para destacar entre la multitud y captar la atención de su público objetivo. Nuestro equipo de expertos en desarrollo web está listo para crear una presencia en línea impresionante y funcional que se ajuste perfectamente a su marca y a sus necesidades comerciales.',
         id:uuidv4()
     },
 ]
