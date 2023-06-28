@@ -11,4 +11,6 @@ root.render(
   </React.StrictMode>
 );
 
+// "start": "WATCHPACK_POLLING=true react-scripts start",
+
 

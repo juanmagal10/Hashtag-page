@@ -38,7 +38,7 @@
     z-index: 15000;
     position: absolute;
     top: 80%;
-    color: var(--amarillo);
+    color: var(--blanco);
     font-size: 30px;
     text-shadow: 1px 1px #222;
     opacity: 0%;
@@ -89,7 +89,7 @@
     z-index: 15000;
     position: absolute;
     top: 80%;
-    color: var(--amarillo);
+    color: var(--blanco);
     font-size: 30px;
     text-shadow: 1px 1px #222;
     opacity: 0%;

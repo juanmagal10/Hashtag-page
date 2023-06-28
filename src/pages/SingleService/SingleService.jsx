@@ -15,13 +15,15 @@ const SingleService = ({ servicios }) => {
    const {nombre, descripcion, img}=servicio[0]
 
   return (
-    <div className='single-service-container'>
-      <h2>{nombre}</h2>
-      <p>{descripcion}</p>
-      <img src={img} alt="img-servicio" />
-        <h2 className='paginacion'>{servicio.nombre}</h2>
+    // <div className='single-service-container'>
+    //   <h2>{nombre}</h2>
+    //   <p>{descripcion}</p>
+    //   <img src={img} alt="img-servicio" />
+    //     <h2 className='paginacion'>{servicio.nombre}</h2>
           
-    </div>
+    // </div>
+
+    <h1>pagina servicios</h1>
   )
 }
 
